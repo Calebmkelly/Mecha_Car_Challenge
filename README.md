@@ -33,7 +33,13 @@ Lots 1 and 2 are in accordance with the design specification, and do not exceed 
 
 ## T-Tests on Suspension Coils
 
+In The first T-Test we compare all manufacturing lots against mean PSI of the population. The null hypothesis is that the true mean is equal to 1500, The results show that the sample mean is 1498.78 and that the p-value is about 0.06; because the the significance level is 0.05, we fail to reject the null hypothesis as the compared means are statistically the same.
 
+In The second T-Test we compare Lot 1 against the mean PSI of the population. The null hypothesis is that the true mean of Lot 1 is equal to 1500, The results show that the sample mean is 1500 and that the p-value is 1; because the significance level is 0.05, we fail to reject the null hypothesis as the compared means are statistically the same.
+
+In The third T-Test we compare Lot 2 against the mean PSI of the population. The null hypothesis is that the true mean of Lot 2 is equal to 1500, The results show that the sample mean is 1500.2 and that the p-value is about 0.61; because the significance level is 0.05, we fail to reject the null hypothesis as the compared means are statistically the same.
+
+In The fourth T-Test we compare Lot 3 against the mean PSI of the population. The null hypothesis is that the true mean of Lot 3 is equal to 1500, The results show that the sample mean is 1496.14 and that the p-value is about 0.042; because the significance level is 0.05, we reject the null hypothesis as the compared means are NOT statistically the same.
 
 
 
