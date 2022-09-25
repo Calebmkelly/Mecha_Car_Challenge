@@ -3,10 +3,10 @@
 ## Linear Regression to Predict MPG
 
 figure 1.1 - Linear Model of Mecha Cars
-![election_analysis](https://github.com/Calebmkelly/Election_Analysis/blob/main/analysis/election_analysis.png)
+![LM_png](https://github.com/Calebmkelly/Mecha_Car_Challenge/blob/main/Mecha_Images/LM.png)
 
 figure 1.2 - Linear Model Summary
-![election_analysis](https://github.com/Calebmkelly/Election_Analysis/blob/main/analysis/election_analysis.png)
+![LMS_png](https://github.com/Calebmkelly/Mecha_Car_Challenge/blob/main/Mecha_Images/LMS.png)
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 From figure 1.2, vehicle length and ground clearance are both cofficients that seem to provide a non-random amount of variance to the mpg values. This is demonstrated by the Pr(>|t|) column, coefficients with a significant impact are indicated in the rows that are highlighted with three asteriks. The Intercept also has a significant impact, implying that the values previously mentioned may need scaling or transforming to provide a a better predictive model.
@@ -20,7 +20,14 @@ Demonstrated in figure 1.2, The linear model has an r-squared value of 0.7149. t
 ## Summary Statistics on Suspension Coils
 
 figure 2.1 - Total Summary
+
+![Total_Summary.png](https://github.com/Calebmkelly/Mecha_Car_Challenge/blob/main/Mecha_Images/Total_Summary.png)
+
+
 figure 2.2 - Lot Summary
+
+![Lot_summary.png](https://github.com/Calebmkelly/Mecha_Car_Challenge/blob/main/Mecha_Images/Lot_summary.png)
+
 
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
@@ -35,11 +42,22 @@ Lots 1 and 2 are in accordance with the design specification, and do not exceed 
 
 ## T-Tests on Suspension Coils
 
+![All_Lots.png](https://github.com/Calebmkelly/Mecha_Car_Challenge/blob/main/Mecha_Images/All_Lots.png)
+
 In The first T-Test we compare all manufacturing lots against mean PSI of the population. The null hypothesis is that the true mean is equal to 1500, The results show that the sample mean is 1498.78 and that the p-value is about 0.06; because the the significance level is 0.05, we fail to reject the null hypothesis as the compared means are statistically the same.
+
+
+![Lot_1.png](https://github.com/Calebmkelly/Mecha_Car_Challenge/blob/main/Mecha_Images/Lot_1.png)
 
 In The second T-Test we compare Lot 1 against the mean PSI of the population. The null hypothesis is that the true mean of Lot 1 is equal to 1500, The results show that the sample mean is 1500 and that the p-value is 1; because the significance level is 0.05, we fail to reject the null hypothesis as the compared means are statistically the same.
 
+
+![Lot_2.png](https://github.com/Calebmkelly/Mecha_Car_Challenge/blob/main/Mecha_Images/Lot_2.png)
+
 In The third T-Test we compare Lot 2 against the mean PSI of the population. The null hypothesis is that the true mean of Lot 2 is equal to 1500, The results show that the sample mean is 1500.2 and that the p-value is about 0.61; because the significance level is 0.05, we fail to reject the null hypothesis as the compared means are statistically the same.
+
+
+![Lot_3.png](https://github.com/Calebmkelly/Mecha_Car_Challenge/blob/main/Mecha_Images/Lot_3.png)
 
 In The fourth T-Test we compare Lot 3 against the mean PSI of the population. The null hypothesis is that the true mean of Lot 3 is equal to 1500, The results show that the sample mean is 1496.14 and that the p-value is about 0.042; because the significance level is 0.05, we reject the null hypothesis as the compared means are NOT statistically the same.
 
