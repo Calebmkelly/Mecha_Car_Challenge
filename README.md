@@ -41,5 +41,14 @@ In The third T-Test we compare Lot 2 against the mean PSI of the population. The
 
 In The fourth T-Test we compare Lot 3 against the mean PSI of the population. The null hypothesis is that the true mean of Lot 3 is equal to 1500, The results show that the sample mean is 1496.14 and that the p-value is about 0.042; because the significance level is 0.05, we reject the null hypothesis as the compared means are NOT statistically the same.
 
+## Study Design: MechaCar vs Competition
 
+For the MechaCars design, statistical analysis can be practiced on the following metrics ain comparison to competitors: purchase cost for consumer, highway fuel efficiency, horse power, maintenance cost, and or safety ratings. A hypothesis for the price of metacars in comparison to the competition can be create for our analysis. 
 
+Null Hypotheses : Based on key performance indicators, Mechacars in comparision to competitors will be priced correctly 
+
+Alternate Hypothesis: Based on key performance indicators, Mechacars in comparision to competitors will not be priced correctly.
+
+The highest correlation/predictability on the MechaCar metrics can found be with multiple linear regression test using the listed selling price as a dependent variable. MechaCars viability for consumers can be evaluated by utilizing T-tests by assessing each of these factors compared to competition
+
+Data required from MechaCars model to run the analysis include the following: fuel efficiency, horsepower and price in comparison to industry data from competitors . a normally distributed dependent variable used for the statistical analysis will be price.
